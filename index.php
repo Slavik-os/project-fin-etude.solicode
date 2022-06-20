@@ -618,7 +618,7 @@ if(isset($_SESSION['username'])) {
       <div class="row">
         <div class="col-md-4">
         <select class="form-select" name="state" aria-label="Default select example">
-            <option value="Active">active</option>
+            <option value="active">active</option>
             <option value="Chômage">Chômage</option>
       </select>
         </div>

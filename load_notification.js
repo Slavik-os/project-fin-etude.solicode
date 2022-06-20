@@ -34,7 +34,7 @@ function create_notification(data,datalen){
 	
 	info_row.className+='col-lg-8 col-sm-8 col-8';
 	uname_holder.className+='uname-holder';
-	full_name_span.innerText = data.firstName+" "+data.lastName+"("+data.matricule+")";
+	full_name_span.innerText = data.firstName+" "+data.lastNAme+"("+data.matricule+")";
 	full_name_span.className+='text-primary';
 
 

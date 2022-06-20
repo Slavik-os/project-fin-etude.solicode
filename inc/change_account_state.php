@@ -13,6 +13,7 @@ if(isset($_POST['change_state'])){
    
         $sql ="UPDATE employes_tbl SET etat ='$status' WHERE matricule='$matricule'";
         mysqli_query($con,$sql);
+        echo $sql;
         header("Location:../index.php?success=Modifier !");
         }
     }
